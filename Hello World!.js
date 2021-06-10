@@ -11,6 +11,11 @@ Hello, World!
 Welcome to 10 Days of JavaScript!
 */
 
+'use strict';
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
 let inputString = '';
 let currentLine = 0;
 
@@ -42,7 +47,7 @@ function greeting(parameterVariable) {
     console.log('Hello, World!');
 
     // Write a line of code that prints parameterVariable to stdout using console.log:
-    console.log('Welcome to 10 Days of JavaScript!');
+    console.log(parameterVariable);
     
 }
 
