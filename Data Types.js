@@ -10,6 +10,7 @@ Sample Output 0
 HackerRank is the best place to learn and practice coding!
 **/
 
+
 'use strict';
 
 process.stdin.resume();
